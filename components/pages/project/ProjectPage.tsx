@@ -19,6 +19,7 @@ export function ProjectPage({ data, encodeDataAttribute }: ProjectPageProps) {
     description,
     duration,
     overview,
+    code,
     site,
     tags,
     title,
@@ -79,6 +80,22 @@ export function ProjectPage({ data, encodeDataAttribute }: ProjectPageProps) {
                     href={site}
                   >
                     {site}
+                  </Link>
+                )}
+              </div>
+            )}
+
+            {/* Code */}
+            {code && (
+              <div className="p-3 lg:p-4">
+                <div className="text-xs md:text-sm">Code</div>
+                {code && (
+                  <Link
+                    target="_blank"
+                    className="text-md break-words md:text-lg"
+                    href={code}
+                  >
+                    {code}
                   </Link>
                 )}
               </div>

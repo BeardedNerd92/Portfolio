@@ -83,6 +83,11 @@ export default defineType({
       type: 'url',
     }),
     defineField({
+      name: 'code',
+      title: 'Code',
+      type: 'url',
+    }),
+    defineField({
       name: 'tags',
       title: 'Tags',
       type: 'array',

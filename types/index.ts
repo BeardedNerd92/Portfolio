@@ -54,6 +54,7 @@ export interface ProjectPayload {
   }
   overview?: PortableTextBlock[]
   site?: string
+  code?: string
   slug: string
   tags?: string[]
   title?: string
