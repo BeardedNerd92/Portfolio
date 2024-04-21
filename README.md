@@ -13,9 +13,6 @@ I'm a passionate and creative software developer. I love building innovative sol
 The Aranda Lawn Service Expense App is a powerful tool designed to simplify expense tracking and management for lawn care businesses. With this app, lawn service providers can easily record and categorize their expenses, ensuring accurate financial records and streamlined tax reporting.
 
 
-### [Project Name 2]
-
-
 ## Contact Me
 
 - **Email**: nzackgrooms@gmail.com
